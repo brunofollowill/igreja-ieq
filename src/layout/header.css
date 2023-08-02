@@ -1,0 +1,17 @@
+.container-header {
+    background-color: #ffffff;
+    box-shadow: 0 0px 3px 1px rgb(218, 218, 218);    
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.container-header img {
+    width: 3.7pc;
+    padding: 10px;
+}
