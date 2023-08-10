@@ -39,7 +39,8 @@ export default function Section() {
                 Atividades
               </a>
               <a
-                href="#"
+                href="https://youtu.be/BwHid0mjNzs"
+                target="blank"
                 className="text-sm font-semibold leading-6 text-white"
               >
                 Saiba mais <span aria-hidden="true">→</span>

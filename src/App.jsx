@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Header />
     <Section />
     <About />
-    <Timeline />
+   
     <Footer />
     {/* <SingIn /> */}
   </React.StrictMode>
