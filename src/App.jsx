@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./layout/header";
 import Section from "./components/sections";
+import Header from "./layout/header";
 import About from "./layout/about";
+import Footer from "./layout/footer";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Footer from "./layout/footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
