@@ -12,7 +12,7 @@ const ScrollMotion = ({ children, width = "fit-content" }) => {
       const windowHeight =
         window.innerHeight || document.documentElement.clientHeight;
 
-      // Verifique se qualquer parte do elemento está visível na janela
+      // Verifica se qualquer parte do elemento está visível na janela
       if (elementTop < windowHeight && elementBottom > 0) {
         setInView(true);
       } else {
@@ -23,7 +23,7 @@ const ScrollMotion = ({ children, width = "fit-content" }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    // Verifique o estado inicial quando o componente é montado
+    // Verifica o estado inicial quando o componente é montado
     handleScroll();
     return () => {
       window.removeEventListener("scroll", handleScroll);

@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "../components/nav/index";
-import logo from "../../public/img/logo-01.png";
-import "../layout/header.css";
+import Menu from "../../components/nav/index";
+import logo from "../../../public/img/logo-01.png";
+import "../header/header.css";
 
 export default function header() {
   return (
