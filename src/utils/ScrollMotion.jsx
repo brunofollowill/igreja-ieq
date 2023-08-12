@@ -8,24 +8,31 @@ const ScrollMotion = ({ children, width = "fit-content" }) => {
   const handleScroll = () => {
     if (ref.current) {
       const elementTop = ref.current.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-      
-      if (elementTop < windowHeight * 0.8) {
+      const elementBottom = ref.current.getBoundingClientRect().bottom;
+      const windowHeight =
+        window.innerHeight || document.documentElement.clientHeight;
+
+      // Verifique se qualquer parte do elemento está visível na janela
+      if (elementTop < windowHeight && elementBottom > 0) {
         setInView(true);
+      } else {
+        setInView(false);
       }
     }
   };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    // Verifique o estado inicial quando o componente é montado
+    handleScroll();
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const animationVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: 20 }, // Mantém a posição vertical original
+    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
   };
 
   return (
@@ -41,6 +48,7 @@ const ScrollMotion = ({ children, width = "fit-content" }) => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={animationVariants}
+        style={{ display: "inline-block" }}
       >
         {children}
       </motion.div>

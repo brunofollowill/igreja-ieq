@@ -4,6 +4,7 @@ import Header from "./layout";
 import Section from "./pages/sections";
 import About from "./pages/about";
 
+
 import ReactDOM from "react-dom/client";
 import "./index.css";
 // import Timeline from "./components/timeline";
@@ -13,7 +14,10 @@ import Bible from "./components/bible/Index";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
-    <Section />
+    
+      <Section />
+    
+
     <About />
     <Footer />
     {/* <SingIn /> */}

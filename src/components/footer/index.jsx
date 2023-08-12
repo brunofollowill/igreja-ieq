@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-sky-50">
+    <footer className="bg-gray-100">
       <div className="flex items-center justify-center lg:justify-between">
         {/* <!-- Social network icons container --> */}
         {/* <div className="flex justify-center m-auto">
