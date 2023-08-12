@@ -23,7 +23,7 @@ function bible({ theme }) {
     setIsOpen(false);
   };
 
-  useEffect(() => {zz
+  useEffect(() => {
     setLivroAtual("0");
     setCapituloAtual("1");
   }, []);

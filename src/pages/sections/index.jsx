@@ -1,14 +1,10 @@
-import slide from "../../../public/img/slide-01.jpg";
-
-function HandlePosition() {
-  const positionImage = 23;
-}
+import Slide from "../../../public/img/slide-01.jpg";
 
 export default function Section() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-9x1 py-2 sm:px-2 sm:py-0 lg:px-5">
-        <div className="relative isolate overflow-hidden bg-blue-800 px-6 pt-14 shadow-2xl rounded-b-lg sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+        <div className="max-sm:h-screen relative isolate overflow-hidden bg-blue-800 px-5 pt-20 shadow-xl rounded-b-lg sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 ">
           <svg
             viewBox="0 0 1024 1024"
             className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -50,7 +46,7 @@ export default function Section() {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               className="absolute left-0 top-0 w-[32rem] lg:left-12 md:w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-              src={slide}
+              src={Slide}
               alt="Captura de tela do aplicativo"
               width={1820}
               height={1080}
