@@ -111,6 +111,10 @@ export default function menu() {
           </Popover>
 
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            Bíblia
+          </a>
+
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Contato
           </a>
         </Popover.Group>
@@ -185,6 +189,13 @@ export default function menu() {
                     </>
                   )}
                 </Disclosure>
+
+                <a
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Bíblia
+                </a>
 
                 <a
                   href="#"

@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+*:focus {
+  outline: none;
+ }
+
+.containerVersion {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  width: 100%;    
+  transition: right 1s ease-out;
+  color: white;
+  background-color: rgb(12, 12, 12);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600; 
+  z-index: 999;
+ }
+
+ .containerVersion.open {
+  right: 0;
+}
+
+ .buttonVersion{
+  background-color: #202123;
+  color: #ffffff;
+  width: 50px;
+  height: 40px;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; 
+  transition: all 1s;
+ }
+
+ .app.dark .buttonVersion {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 1s;
+ }
+
+.app.light .Container-bible {
+  color: #000000;
+  background-color: #ffffff;
+  transition: all 1s;
+ }
+
+.app.dark .Container-bible {
+  background: #121212;  
+  color: #ffffff;
+  transition: all 1s;
+ }
+
+.Container-bible{  
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: 'Open Sans', sans-serif; 
+  margin-bottom: 35px;
+ }
+
+.Box-bible {
+  align-self: center;
+  width: 650px;
+  margin-top: 15px;
+  border-radius: 20px;
+  transition: all 1s;
+  height: 100%;
+ }
+
+.select { 
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 1px;
+  overflow: hidden;       
+ }
+
+.Select-book,
+.Select-chapter {  
+  width: 50%;  
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;  
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;  
+ }
+
+.Select-book {  
+  text-align: center;  
+  border: none;
+  list-style: none;
+  height: 40px;  
+ }
+
+.app.dark .Select-book {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: all 1s;
+ }
+
+.app.app.light .Select-book {
+  background-color: #202123;
+  color: rgb(255, 255, 255);
+  transition: all 1s;
+ }
+
+.select-versao {
+  text-align: center;
+  background-color: #202123;
+  color: white;
+  margin-bottom:1px;
+  width: 325px;
+  height: 40px;
+  font-size: 17px;
+  border: none;
+  transition: all 1s;
+  list-style: none;
+ }
+
+.app.dark .select-versao {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 1s;
+ }
+
+.Select-chapter {   
+  text-align: center;
+  border: none; 
+  list-style: none;
+  height: 40px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+ }
+
+.app.light .Select-chapter {
+  background-color: #202123;
+  color: rgb(255, 255, 255);
+  transition: all 1s;
+ }
+
+.app.dark .Select-chapter{
+  background-color: #ffffff;
+  color: black;
+  transition: all 1s;
+ }
+
+.Container-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 5px;
+ }
+
+.Button-left{
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 10px 2px  #000000;
+  list-style: none;
+  background-color: white;
+  color: black;
+  border-bottom-left-radius: 15px;
+ }
+
+.app.light .Button-left {
+  background-color: #202123;
+  color: #ffffff;
+  transition: all 1s;
+ }
+
+.Button-right{
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 10px 2px  #000000;
+  list-style: none;
+  background-color: white;
+  color: black;
+  border-bottom-right-radius: 15px;
+ }
+
+.app.light .Button-right {
+  background-color: #202123;
+  color: #ffffff;
+  transition: all 1s;
+ }
+
+.Container-text {
+  padding: 1px;
+  width: 900px;
+  align-self: center;
+ }
+
+.Chapter {
+    margin: 10%;
+    text-align: center;    
+ }
+
+.Verse-bible {
+    text-align: start;
+    margin: 0;
+    font-family: 'Lora', serif;
+ }
+
+.font-buttons {
+  display: none;
+}
+
+@media(max-width:980px) {
+  .Container-text {
+    width: 100%;     
+  }
+}
+
+@media(max-width:480px) {
+.Container-bible{
+  margin-top: 15px;
+  padding: 2px;
+ }
+
+ .Box-bible {
+  align-self: center;
+  width: 90%;
+  margin-top: 15px;  
+ }
+
+ .Container-button{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;  
+  position:fixed;
+  left: 5%;
+  bottom: 10%;  
+ }
+
+.Button-left{
+  border: none;  
+  list-style: none;  
+  opacity:0.8;
+  align-items: center;  
+ }
+
+.Button-right{
+  text-align: center;  
+  border: none; 
+  list-style: none; 
+  opacity: 0.8;
+  align-items: center; 
+ }
+
+.Select-book, .Select-chapter{
+  width: 100%;
+ }
+
+.font-buttons{
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  opacity: 0.7;
+  gap: 5px;
+  bottom: 35%;
+ }
+
+ .Button-maior {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+  transition: all 1s;
+  width: 35px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 2px  #000000;
+ }
+
+.app.dark .Button-maior {
+  background-color: #ededed;
+  color: #000000;
+  transition: all 1s;
+ }
+
+.Button-menor {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: all 1s;
+  width: 35px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 2px  #000000;
+ }
+
+.app.dark .Button-menor {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 1s;
+ }
+
+}

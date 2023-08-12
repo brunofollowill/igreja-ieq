@@ -1,0 +1,470 @@
+[
+    {
+        "pergunta": "Qual dos seguintes profetas bíblicos é conhecido por ter profetizado sobre o Messias que viria?",
+        "opcoes": [
+            "Isaías",
+            "Jeremias",
+            "Daniel",
+            "Oséias",
+            "Joel"
+        ],
+        "resposta": "Isaías",
+        "explicacao": "Isaías é um dos profetas mais conhecidos que profetizou sobre a vinda do Messias. Ele falou sobre um servo sofredor que carregaria as dores e as transgressões de seu povo e, posteriormente, seria exaltado e faria justiça. Muitas dessas profecias se cumpriram na vida de Jesus Cristo, como a sua crucificação e ressurreição."
+    },
+    {
+        "pergunta": "Qual é o primeiro livro da Bíblia?",
+        "opcoes": [
+            "Gênesis",
+            "Êxodo",
+            "Levítico",
+            "Números",
+            "Deuteronômio"
+        ],
+        "resposta": "Gênesis",
+        "explicacao": "Gênesis é o primeiro livro da Bíblia e narra a criação do mundo e da humanidade, além de contar as histórias de Adão e Eva, Caim e Abel, Noé e o dilúvio, entre outras."
+    },
+    {
+        "pergunta": "Quantos livros há no Novo Testamento da Bíblia?",
+        "opcoes": [
+            "24",
+            "26",
+            "27",
+            "28",
+            "30"
+        ],
+        "resposta": "27",
+        "explicacao": "O Novo Testamento da Bíblia contém 27 livros, que incluem os quatro Evangelhos, Atos dos Apóstolos, as Epístolas e o Livro do Apocalipse."
+    },
+    {
+        "pergunta": "Qual foi o primeiro milagre de Jesus registrado nos Evangelhos?",
+        "opcoes": [
+            "A cura do paralítico em Cafarnaum",
+            "A transformação da água em vinho nas Bodas de Caná",
+            "A cura do cego de Betsaida",
+            "A multiplicação dos pães e peixes",
+            "A ressurreição de Lázaro"
+        ],
+        "resposta": "A transformação da água em vinho nas Bodas de Caná",
+        "explicacao": "O primeiro milagre de Jesus registrado nos Evangelhos ocorreu durante as Bodas de Caná, onde ele transformou água em vinho, depois que o vinho original havia acabado."
+    },
+    {
+        "pergunta": "Qual é o livro da Bíblia que contém o famoso Sermão da Montanha?",
+        "opcoes": [
+            "Mateus",
+            "Marcos",
+            "Lucas",
+            "João",
+            "Atos dos Apóstolos"
+        ],
+        "resposta": "Mateus",
+        "explicacao": "O Sermão da Montanha é uma das passagens mais famosas da Bíblia e é encontrado no Evangelho de Mateus, nos capítulos 5 a 7."
+    },
+    {
+        "pergunta": "Qual dos seguintes personagens bíblicos foi conhecido por construir uma arca para salvar a si e sua família de um dilúvio enviado por Deus?",
+        "opcoes": [
+            "Noé",
+            "Moisés",
+            "Abraão",
+            "Isaque",
+            "Jacó"
+        ],
+        "resposta": "Noé",
+        "explicacao": "Noé é conhecido por construir uma grande arca para salvar a si e sua família, além de animais de cada espécie, durante o dilúvio que Deus enviou para destruir a humanidade pecaminosa."
+    },
+    {
+        "pergunta": "Qual é o livro da Bíblia que relata a história de José, filho de Jacó, que se tornou governador do Egito?",
+        "opcoes": [
+            "Gênesis",
+            "Êxodo",
+            "Levítico",
+            "Números",
+            "Deuteronômio"
+        ],
+        "resposta": "Gênesis",
+        "explicacao": "A história de José é narrada no livro de Gênesis, que conta como ele foi vendido como escravo por seus irmãos e acabou se tornando governador do Egito, salvando sua família da fome."
+    },
+    {
+        "pergunta": "Qual é o mandamento mais importante da lei de Deus, segundo Jesus?",
+        "opcoes": [
+            "Amar a Deus sobre todas as coisas",
+            "Não matar",
+            "Não furtar",
+            "Honrar pai e mãe",
+            "Amar o próximo como a si mesmo"
+        ],
+        "resposta": "Amar a Deus sobre todas as coisas",
+        "explicacao": "Quando perguntado sobre qual era o mandamento mais importante da lei de Deus, Jesus respondeu: 'Amarás o Senhor teu Deus de todo o teu coração, de toda a tua alma e de todo o teu entendimento. Este é o primeiro e maior mandamento'."
+    },
+    {
+        "pergunta": "Qual é o livro da Bíblia que contém o Salmo 23, que começa com as palavras 'O Senhor é o meu pastor'?",
+        "opcoes": [
+            "Salmos",
+            "Provérbios",
+            "Eclesiastes",
+            "Cânticos dos Cânticos",
+            "Isaías"
+        ],
+        "resposta": "Salmos",
+        "explicacao": "O Salmo 23 é um dos mais conhecidos e amados da Bíblia e é encontrado no livro de Salmos, que contém muitos outros salmos e hinos de louvor a Deus."
+    },
+    {
+        "pergunta": "Qual é o livro da Bíblia que contém a história da criação de Eva, a primeira mulher?",
+        "opcoes": [
+            "Gênesis",
+            "Êxodo",
+            "Levítico",
+            "Números",
+            "Deuteronômio"
+        ],
+        "resposta": "Gênesis",
+        "explicacao": "A história da criação de Eva é narrada no livro de Gênesis, que também conta a história da criação de Adão e de todo o mundo."
+    },
+    {
+        "pergunta": "Qual é o livro da Bíblia que contém a história da torre de Babel?",
+        "opcoes": [
+            "Gênesis",
+            "Êxodo",
+            "Levítico",
+            "Números",
+            "Deuteronômio"
+        ],
+        "resposta": "Gênesis",
+        "explicacao": "A história da torre de Babel é encontrada no livro de Gênesis, que conta a história da criação do mundo e dos primeiros seres humanos."
+    },
+    {
+        "pergunta": "Qual foi o profeta que foi levado ao céu em um carro de fogo?",
+        "opcoes": [
+            "Elias",
+            "Eliseu",
+            "Isaías",
+            "Jeremias",
+            "Jonas"
+        ],
+        "resposta": "Elias",
+        "explicacao": "Elias foi um profeta do Antigo Testamento que foi levado ao céu em um carro de fogo, deixando seu manto para trás como sinal de que seu espírito havia sido transferido para Eliseu."
+    },
+    {
+        "pergunta": "Quem foi o discípulo de Jesus que traiu ele?",
+        "opcoes": [
+            "Judas Iscariotes",
+            "Pedro",
+            "João",
+            "Tiago",
+            "Filipe"
+        ],
+        "resposta": "Judas Iscariotes",
+        "explicacao": "Judas Iscariotes foi um dos doze discípulos de Jesus, mas traiu ele por trinta moedas de prata e o entregou aos líderes religiosos para ser crucificado."
+    },
+    {
+        "pergunta": "Qual foi a mensagem que Deus entregou a Moisés através da sarça ardente?",
+        "opcoes": [
+            "Que ele seria o libertador do povo de Israel",
+            "Que ele seria um grande rei de Israel",
+            "Que ele deveria construir um templo para Deus",
+            "Que ele deveria viajar para um lugar específico para adorar a Deus",
+            "Que ele deveria escrever as leis e mandamentos de Deus em tábuas de pedra"
+        ],
+        "resposta": "Que ele seria o libertador do povo de Israel",
+        "explicacao": "Deus entregou a mensagem a Moisés através da sarça ardente que ele seria o libertador do povo de Israel, e deveria liderar os israelitas para fora do Egito, onde estavam escravizados."
+    },
+    {
+        "pergunta": "Quem foi o primeiro rei de Israel?",
+        "opcoes": [
+            "Saul",
+            "Davi",
+            "Salomão",
+            "Jeroboão",
+            "Roboão"
+        ],
+        "resposta": "Saul",
+        "explicacao": "Saul foi o primeiro rei de Israel, escolhido por Deus para liderar o povo. Ele governou Israel por cerca de 40 anos, mas acabou perdendo o favor de Deus e foi substituído por Davi."
+    },
+    {
+        "pergunta": "Qual foi o profeta que desafiou os profetas de Baal no Monte Carmelo?",
+        "opcoes": [
+            "Elias",
+            "Isaías",
+            "Jeremias",
+            "Daniel",
+            "Amós"
+        ],
+        "resposta": "Elias",
+        "explicacao": "Elias desafiou os profetas de Baal no Monte Carmelo, em um confronto espiritual em que Deus mostrou sua superioridade sobre os deuses falsos. Elias orou e Deus respondeu, enviando fogo do céu para consumir o holocausto que Elias havia preparado."
+    },
+    {
+        "pergunta": "Qual foi o nome do sumo sacerdote que interrogou Jesus durante seu julgamento?",
+        "opcoes": [
+            "Caifás",
+            "Anás",
+            "Pilatos",
+            "Herodes",
+            "Arquelau"
+        ],
+        "resposta": "Caifás",
+        "explicacao": "Caifás foi o sumo sacerdote do templo de Jerusalém durante o período em que Jesus foi julgado. Ele foi um dos principais acusadores de Jesus e o condenou por blasfêmia."
+    },
+    {
+        "pergunta": "Qual é o nome do profeta que se recusou a profetizar a queda de Judá?",
+        "opcoes": [
+            "Jeremias",
+            "Isaías",
+            "Ezequiel",
+            "Oséias",
+            "Miqueias"
+        ],
+        "resposta": "Miqueias",
+        "explicacao": "Miqueias foi um profeta que profetizou a queda de Israel e Judá, mas se recusou a profetizar apenas a destruição de Judá, porque acreditava que Deus tinha um plano maior para o povo."
+    },
+    {
+        "pergunta": "Qual foi o nome da mulher que Davi cometeu adultério?",
+        "opcoes": [
+            "Bate-Seba",
+            "Raabe",
+            "Ana",
+            "Débora",
+            "Ester"
+        ],
+        "resposta": "Bate-Seba",
+        "explicacao": "Bate-Seba era esposa de Urias, um dos soldados de Davi. Davi se apaixonou por ela e acabou cometendo adultério, o que levou a uma série de consequências trágicas para sua família e seu reino."
+    },
+    {
+        "pergunta": "Qual foi o nome do líder que conduziu a reconstrução dos muros de Jerusalém após o exílio?",
+        "opcoes": [
+            "Neemias",
+            "Esdras",
+            "Zorobabel",
+            "Joiada",
+            "Jasom"
+        ],
+        "resposta": "Neemias",
+        "explicacao": "Neemias foi um líder judeu que viveu durante o período do exílio babilônico. Ele recebeu autorização para retornar a Jerusalém e liderou a reconstrução dos muros da cidade, protegendo o povo dos inimigos e restaurando a dignidade de Israel."
+    },
+    {
+        "pergunta": "Qual foi o nome da esposa de Abraão?",
+        "opcoes": [
+            "Rebeca",
+            "Sara",
+            "Raquel",
+            "Lea",
+            "Débora"
+        ],
+        "resposta": "Sara",
+        "explicacao": "Sara foi a esposa de Abraão e mãe de seu filho Isaque. Ela foi estéril por muitos anos, mas Deus lhe deu um filho na velhice como uma promessa cumprida."
+    },
+    {
+        "pergunta": "Quem era o pai de João Batista?",
+        "opcoes": [
+            "Zacarias",
+            "José",
+            "João",
+            "Herodes",
+            "Simeão"
+        ],
+        "resposta": "Zacarias",
+        "explicacao": "Zacarias era um sacerdote judeu casado com Isabel. Eles eram idosos e estéreis, mas Deus lhes deu um filho, João Batista, que seria o precursor de Jesus."
+    },
+    {
+        "pergunta": "Qual o nome do lugar onde Jesus foi crucificado?",
+        "opcoes": [
+            "Belém",
+            "Nazaré",
+            "Jerusalém",
+            "Betânia",
+            "Calvário"
+        ],
+        "resposta": "Calvário",
+        "explicacao": "O Calvário, também conhecido como Gólgota, era um lugar fora dos muros de Jerusalém onde os romanos costumavam crucificar criminosos. Foi lá que Jesus foi crucificado e morreu pelos nossos pecados."
+    },
+    {
+        "pergunta": "Qual o nome do filho de Noé que o amaldiçoou e se tornou o pai dos cananeus?",
+        "opcoes": [
+            "Cam",
+            "Sem",
+            "Jafé",
+            "Caim",
+            "Sete"
+        ],
+        "resposta": "Cam",
+        "explicacao": "Cam foi o filho de Noé que o viu nu e bêbado, e contou aos seus irmãos. Por isso, Noé o amaldiçoou e seus descendentes se tornaram os cananeus."
+    },
+    {
+        "pergunta": "Qual o nome da esposa de Isaque?",
+        "opcoes": [
+            "Lea",
+            "Débora",
+            "Raquel",
+            "Sara",
+            "Rebeca"
+        ],
+        "resposta": "Rebeca",
+        "explicacao": "Rebeca foi a esposa de Isaque e mãe de seus filhos gêmeos, Esaú e Jacó. Ela foi escolhida por Deus para ser a esposa de Isaque, e demonstrou grande fidelidade e coragem."
+    },
+    {
+        "pergunta": "Qual o nome do profeta que foi engolido por um grande peixe?",
+        "opcoes": [
+            "Jonas",
+            "Isaías",
+            "Jeremias",
+            "Ezequiel",
+            "Miqueias"
+        ],
+        "resposta": "Jonas",
+        "explicacao": "Jonas foi um profeta de Deus que foi enviado a Nínive para pregar a mensagem de arrependimento. No entanto, ele tentou fugir de Deus e foi engolido por um grande peixe. Depois de três dias, o peixe o vomitou na praia e ele finalmente foi pregar em Nínive."
+    },
+    {
+        "pergunta": "Qual o nome do rei que se tornou famoso por sua sabedoria?",
+        "opcoes": [
+            "Salomão",
+            "Davi",
+            "Absalão",
+            "Asa",
+            "Ezequias"
+        ],
+        "resposta": "Salomão",
+        "explicacao": "Salomão foi o filho de Davi e se tornou rei de Israel após a morte de seu pai. Ele é famoso por sua sabedoria e pela construção do Templo de Jerusalém. No entanto, também se desviou da vontade de Deus no final de sua vida."
+    },
+    {
+        "pergunta": "Qual o nome do livro da Bíblia que contém os famosos 'Cânticos dos Cânticos'?",
+        "opcoes": [
+            "Salmos",
+            "Provérbios",
+            "Cânticos",
+            "Eclesiastes",
+            "Cantares"
+        ],
+        "resposta": "Cantares",
+        "explicacao": "O livro de Cantares, também conhecido como Cântico dos Cânticos, é uma coleção de poesias líricas que celebram o amor humano e a intimidade física entre um homem e uma mulher. O livro é frequentemente interpretado como uma alegoria do amor entre Deus e seu povo."
+    },
+    {
+        "pergunta": "Qual o nome do profeta que teve a visão dos quatro seres viventes no trono de Deus?",
+        "opcoes": [
+            "Isaías",
+            "Jeremias",
+            "Ezequiel",
+            "Daniel",
+            "Oséias"
+        ],
+        "resposta": "Ezequiel",
+        "explicacao": "Ezequiel foi um profeta hebreu que viveu durante o exílio babilônico. Ele teve uma visão poderosa de Deus no trono, rodeado por quatro seres viventes, cada um com quatro faces. Essa visão representa a soberania de Deus sobre todas as coisas."
+    },
+    {
+        "pergunta": "Qual foi o nome do anjo que apareceu a Zacarias para anunciar o nascimento de João Batista?",
+        "opcoes": [
+            "Gabriel",
+            "Miguel",
+            "Rafael",
+            "Uriel",
+            "Jofiel"
+        ],
+        "resposta": "Gabriel",
+        "explicacao": "Gabriel é um anjo mencionado na Bíblia que apareceu a Zacarias para anunciar o nascimento de seu filho, João Batista. Ele também apareceu a Maria para anunciar o nascimento de Jesus. Gabriel é um dos três arcanjos mencionados na Bíblia e é considerado um dos mais importantes, sendo associado com mensagens divinas, revelações e profecias."
+    },
+    {
+        "pergunta": "Qual foi o nome do homem que, de acordo com a Bíblia, viveu mais tempo na Terra?",
+        "opcoes": [
+            "Matusalém",
+            "Adão",
+            "Sete",
+            "Enoque",
+            "Jared"
+        ],
+        "resposta": "Matusalém",
+        "explicacao": "Matusalém foi um personagem bíblico mencionado no livro de Gênesis como sendo o homem que viveu mais tempo na Terra. Segundo a Bíblia, ele viveu 969 anos antes de morrer. Ele era filho de Enoque e avô de Noé, que construiu a arca para salvar sua família e os animais durante o dilúvio."
+    },
+    {
+        "pergunta": "Qual foi o nome da cidade que o profeta Jonas foi enviado para pregar a mensagem de Deus, mas inicialmente fugiu para outra cidade?",
+        "opcoes": [
+            "Nínive",
+            "Babilônia",
+            "Sodoma",
+            "Gomorra",
+            "Jerusalém"
+        ],
+        "resposta": "Nínive",
+        "explicacao": "Jonas foi enviado por Deus para pregar a mensagem de arrependimento à cidade de Nínive, mas inicialmente fugiu para outra cidade. Depois de ser engolido por um grande peixe e passar três dias no ventre do animal, Jonas finalmente obedeceu a Deus e pregou a mensagem em Nínive, levando a um grande avivamento na cidade."
+    },
+    {
+        "pergunta": "Qual foi o nome do rei da Pérsia que permitiu que os judeus retornassem a Jerusalém e reconstruíssem o Templo após o exílio babilônico?",
+        "opcoes": [
+            "Ciro",
+            "Dario",
+            "Xerxes",
+            "Artaxerxes",
+            "Cambises"
+        ],
+        "resposta": "Ciro",
+        "explicacao": "Ciro II, também conhecido como Ciro, o Grande, foi o rei da Pérsia que conquistou a Babilônia e permitiu que os judeus retornassem a Jerusalém e reconstruíssem o Templo. Ele é considerado um dos maiores líderes da história da Pérsia e é mencionado na Bíblia como um instrumento de Deus para libertar seu povo do exílio babilônico."
+    },
+    {
+        "pergunta": "Qual foi o nome do rei de Israel que foi abordado pelo profeta Natã por ter cometido adultério e assassinato, e que mais tarde teve seu filho Salomão como sucessor?",
+        "opcoes": [
+            "Saul",
+            "Davi",
+            "Salomão",
+            "Roboão",
+            "Jeroboão"
+        ],
+        "resposta": "Davi",
+        "explicacao": "Davi foi o rei de Israel que foi abordado pelo profeta Natã por ter cometido adultério com Bate-Seba e assassinato de seu marido Urias, um dos seus soldados. Natã confrontou Davi com uma parábola sobre um homem rico que roubou a ovelha de um homem pobre, fazendo-o ver o erro de seus caminhos. Davi se arrependeu e mais tarde teve seu filho Salomão como sucessor."
+    },
+    {
+        "pergunta": "Qual foi o nome do levita que escreveu o livro de Ageu no Antigo Testamento?",
+        "opcoes": [
+            "Esdras",
+            "Neemias",
+            "Zacarias",
+            "Malaquias",
+            "Ageu"
+        ],
+        "resposta": "Ageu",
+        "explicacao": "Ageu foi um dos profetas menores do Antigo Testamento e um levita que escreveu o livro que leva o seu nome. Ele profetizou durante o período da reconstrução do templo em Jerusalém, incentivando o povo a terminar a obra que havia sido interrompida. Seu livro é composto por quatro mensagens que foram dadas ao povo durante um período de quatro meses, em 520 a.C."
+    },
+    {
+        "pergunta": "Qual foi o nome do profeta que teve uma visão da glória de Deus no Templo e foi comissionado por Deus para anunciar a destruição de Jerusalém?",
+        "opcoes": [
+            "Isaías",
+            "Jeremias",
+            "Ezequiel",
+            "Daniel",
+            "Oséias"
+        ],
+        "resposta": "Ezequiel",
+        "explicacao": "Ezequiel foi um profeta hebreu que viveu durante o exílio babilônico e teve uma visão da glória de Deus no Templo de Jerusalém. Ele foi comissionado por Deus para anunciar a destruição de Jerusalém e da nação de Judá, bem como a esperança de restauração futura. Seu livro contém muitas visões simbólicas e profecias complexas que descrevem a restauração da nação e a vinda do Messias."
+    },
+    {
+        "pergunta": "Qual foi o nome do primeiro mártir cristão e discípulo de Jesus a ser executado?",
+        "opcoes": [
+            "João",
+            "Paulo",
+            "Pedro",
+            "Estêvão",
+            "Tiago"
+        ],
+        "resposta": "Estêvão",
+        "explicacao": "Estêvão foi um dos sete diáconos escolhidos pelos apóstolos para servir na Igreja primitiva em Jerusalém. Ele foi preso por pregar o evangelho e, diante do sinédrio, deu um testemunho corajoso da sua fé. Enfurecidos, os membros do sinédrio o apedrejaram até a morte, tornando-o o primeiro mártir cristão registrado na Bíblia."
+    },
+    {
+        "pergunta": "Qual foi o nome do rei que perdeu seu reinado por não ter obedecido a Deus e ter tido um coração rebelde?",
+        "opcoes": [
+            "Saul",
+            "Salomão",
+            "Davi",
+            "Asa",
+            "Jeosafá"
+        ],
+        "resposta": "Salomão",
+        "explicacao": "Salomão foi um rei sábio e próspero que governou Israel após seu pai Davi. Ele pediu sabedoria a Deus e se tornou famoso por sua justiça e sua construção do Templo em Jerusalém. No entanto, ele se desviou de Deus em sua velhice, tendo muitas esposas e concubinas estrangeiras e adorando outros deuses. Como resultado, Deus prometeu retirar seu reinado do filho de Salomão e dar a uma das tribos de Israel (1 Reis 11). O reino foi dividido após sua morte e seu filho Roboão só governou Judá, enquanto Jeroboão governou Israel."
+    },
+    {
+        "pergunta": "Qual foi o nome do juiz de Israel que derrotou os midianitas com um exército de apenas trezentos homens, usando tochas, jarros e trombetas?",
+        "opcoes": [
+            "Sansão",
+            "Gideão",
+            "Jefté",
+            "Débora",
+            "Eli"
+        ],
+        "resposta": "Gideão",
+        "explicacao": "Gideão foi um juiz de Israel que liderou a nação em uma batalha contra os midianitas. Ele começou com um exército de trinta e dois mil homens, mas Deus ordenou que ele os reduzisse a apenas trezentos para enfrentar o inimigo (Juízes 7)."
+    }
+]

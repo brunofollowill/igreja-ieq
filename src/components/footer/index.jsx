@@ -1,11 +1,9 @@
 import React from "react";
 
-
-
 export default function Footer() {
   return (
-    <footer className="bg-neutral-100 text-center text-neutral-800 dark:bg-neutral-100 dark:text-neutral-800 lg:text-left">
-      <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-300 lg:justify-between">
+    <footer className="bg-sky-50">
+      <div className="flex items-center justify-center lg:justify-between">
         {/* <!-- Social network icons container --> */}
         {/* <div className="flex justify-center m-auto">
           <a
@@ -39,7 +37,7 @@ export default function Footer() {
       </div>
 
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
-      <div className="mx-6 py-10 text-center md:text-left">
+      <div className="mx-6 py-10 text-center md:text-left text-slate-600">
         <div className="xl:flex justify-evenly md:grid-cols-2 lg:grid-cols-3">
           {/* <!-- Tailwind Elements section --> */}
           <div className="">
@@ -53,7 +51,7 @@ export default function Footer() {
             <h6 className="mb-2 flex justify-center font-semibold uppercase md:justify-start">
               Endereço
             </h6>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start ">
               <a href="https://goo.gl/maps/SrUDkJm8CgYfDcpU6" target="blank">
                 R. Kilvio Santos, 1205 - Parque do Laranjal, Nova Iguaçu - RJ
               </a>
@@ -63,7 +61,7 @@ export default function Footer() {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-neutral-200 p-3 text-center dark:bg-neutral-100">
+      <div className=" p-3 text-center text-slate-500">
         <span>© Wester Developer</span>
       </div>
     </footer>
