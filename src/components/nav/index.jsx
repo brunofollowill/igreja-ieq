@@ -1,37 +1,27 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
-const products = [
-  {
-    name: "Louvor",
-    href: "#",
-  },
-  {
-    name: "Casais",
-    href: "#",
-  },
-  {
-    name: "Homens",
-    href: "#",
-  },
-  {
-    name: "Mulheres",
-    href: "#",
-  },
-  {
-    name: "Kids",
-    href: "#",
-  },
-  {
-    name: "Danca",
-    href: "#",
-  },
-];
-
 export default function menu() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const navegation = [
+    { name: "Inicio", href: "/" },
+    { name: "Atividades", href: "#" },
+    { name: "Contato", href: "#" },
+  ];
+
+  const ministry = [
+    { name: "Louvor", href: "#" },
+    { name: "Casais", href: "#" },
+    { name: "Homens", href: "#" },
+    { name: "Mulheres", href: "#" },
+    { name: "Kids", href: "#" },
+    { name: "Danca", href: "#" },
+  ];
 
   return (
     <header>
@@ -39,11 +29,6 @@ export default function menu() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-          </a>
-        </div>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -55,12 +40,19 @@ export default function menu() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-7">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Início
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Atividades
-          </a>
+          <div>
+            {navegation.map((item) => (
+              <Link to={item.href}>
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-sm font-semibold leading-6 text-gray-900 ml-8"
+                >
+                  {item.name}
+                </a>
+              </Link>
+            ))}
+          </div>
 
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
@@ -82,17 +74,11 @@ export default function menu() {
             >
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
-                  {products.map((item) => (
+                  {ministry.map((item) => (
                     <div
                       key={item.name}
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                     >
-                      {/* <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon
-                          className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
-                          aria-hidden="true"
-                        />
-                      </div> */}
                       <div className="flex-auto">
                         <a
                           href={item.href}
@@ -109,19 +95,13 @@ export default function menu() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Bíblia
-          </a>
-
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Contato
-          </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-3 lg:justify-end mx-10">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Entrar <span aria-hidden="true">&rarr;</span>
-          </a>
+          <Link to="/dashboard">
+            <a className="text-sm font-semibold leading-6 text-gray-900">
+              Entrar <span aria-hidden="true">&rarr;</span>
+            </a>
+          </Link>
         </div>
       </nav>
       <Dialog
@@ -148,34 +128,28 @@ export default function menu() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Início
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Atividades
-                </a>
+                <div>
+                  {navegation.map((item) => (
+                    <Link to={item.href}>
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      >
+                        {item.name}
+                      </a>
+                    </Link>
+                  ))}
+                </div>
 
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                         Ministérios
-                        {/* <ChevronDownIcon
-                          className={classNames(
-                            open ? "rotate-180" : "",
-                            "h-5 w-5 flex-none"
-                          )}
-                          aria-hidden="true"
-                        /> */}
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products].map((item) => (
+                        {[...ministry].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
@@ -189,28 +163,13 @@ export default function menu() {
                     </>
                   )}
                 </Disclosure>
-
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Bíblia
-                </a>
-
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Contato
-                </a>
               </div>
               <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Entrar
-                </a>
+                <Link to="/dashboard">
+                  <a className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    Entrar
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
